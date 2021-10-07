@@ -14,3 +14,15 @@ elif (operation == "subtracao"):
     print("O resultado e = {}".format(result))
 else:
     print("Operacao '{}' nao reconhecida".format(operation))
+
+if (operation == "divisao"):
+    result=int(x)/int(y)
+    print("o resultado e = {}".format(result))
+else:
+    print("operacao '{}' nao reconhecida".format(operation))
+
+if (operation == "multiplicacao"):
+    result=int(x)*int(y)
+    print("o resultado e = {}".format(result))
+else:
+    print("operacao '{}' nao reconhecida".format(operation))

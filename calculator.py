@@ -12,17 +12,9 @@ if (operation == "soma"):
 elif (operation == "subtracao"):
     result=int(x)-int(y)
     print("O resultado e = {}".format(result))
-else:
-    print("Operacao '{}' nao reconhecida".format(operation))
-
-if (operation == "divisao"):
-    result=int(x)/int(y)
-    print("o resultado e = {}".format(result))
-else:
-    print("operacao '{}' nao reconhecida".format(operation))
-
-if (operation == "multiplicacao"):
+elif (operation == "multiplicacao"):
     result=int(x)*int(y)
-    print("o resultado e = {}".format(result))
+    print("O resultado e = {}".format(result))
 else:
-    print("operacao '{}' nao reconhecida".format(operation))
+    result=int(x)/int(y)
+    print("O resultado e = {}".format(result))

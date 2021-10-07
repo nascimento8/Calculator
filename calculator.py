@@ -15,6 +15,8 @@ elif (operation == "subtracao"):
 elif (operation == "multiplicacao"):
     result=int(x)*int(y)
     print("O resultado e = {}".format(result))
-else:
+elif (operation == "divisao"):
     result=int(x)/int(y)
     print("O resultado e = {}".format(result))
+else:
+    print("Operacao '{}' nao reconhecida".format(operation))
